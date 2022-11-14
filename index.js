@@ -7,9 +7,20 @@ while (seguirOperando === true) {
 
   let edad = prompt("¿Que edad tienes?");
 
+  let domicilio = prompt("¿cual es tu domicilio?");
+
+  let ObjUser = {
+    nombre: nombre,
+    edad: edad,
+    domicilio: domicilio,
+  }
+
+
   //ponemos cual es el usuario//
 
-  console.log("el usuario es " + nombre + " de " + edad + " años");
+  console.log(ObjUser);
+
+  
 
   //si el usuario es mayor de 18//
 
