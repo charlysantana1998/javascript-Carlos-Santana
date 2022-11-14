@@ -20,8 +20,6 @@ while (seguirOperando === true) {
 
   console.log(ObjUser);
 
-  
-
   //si el usuario es mayor de 18//
 
   if (edad >= 18) {
